@@ -7,7 +7,7 @@ __pycache__/
 .DS_Store
 
 # Virtual environment (specific to your project)
-car-damage-detection/
+venv/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
