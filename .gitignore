@@ -1,0 +1,44 @@
+# Byte-compiled / Cached files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+.DS_Store
+
+# Virtual environment (specific to your project)
+car-damage-detection/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs & debugging
+logs/
+*.log
+
+# Dataset & model weights
+data/raw/
+data/processed/
+data/output/
+weights/
+checkpoints/
+
+# Configuration & secrets
+
+# Build & distribution
+dist/
+build/
+*.egg-info/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Testing & reports
+.coverage
+htmlcov/
+*.pytest_cache/
