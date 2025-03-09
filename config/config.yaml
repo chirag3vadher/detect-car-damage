@@ -1,0 +1,24 @@
+train:
+  epochs: 25
+  learning_rate: 0.001
+  optimizer: "adam"
+  loss_function: "cross_entropy"
+  save_model_path: "models/"
+
+models:
+  use_resnet: true
+  use_efficientnet: true
+  use_mobilenet: true
+
+data:
+  train:
+    img_dir: "data/raw/train/"
+    annotation_file: "data/raw/train/coco_train_annos.json"
+  val:
+    img_dir: "data/raw/val/"
+    annotation_file: "data/raw/val/coco_val_annos.json"
+  test:
+    img_dir: "data/raw/test/"
+
+training:
+  batch_size: 16
